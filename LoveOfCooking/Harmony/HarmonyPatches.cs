@@ -121,7 +121,7 @@ namespace LoveOfCooking.HarmonyPatches
 					};
 					Game1.currentLocation.temporarySprites.Add(sprite);
 				}
-				return false;
+				return true;
 			}
 			catch (Exception ex)
 			{
